@@ -1,11 +1,11 @@
 # Data Preprocessing
 
 ## Overview
-This project is designed to solve a specific problem using advanced machine learning techniques. It includes data preprocessing, model training, and evaluation steps to achieve high accuracy.
+This project is designed to predict total cost encurred by tonadoes in USA using hybrid modelling. It includes data preprocessing, model training, and evaluation steps to achieve high accuracy.
 
 ## Features
 - Data Preprocessing: Cleans and prepares raw data for model training.
-- Model Training: Implements machine learning models to analyze and predict outcomes.
+- Model Training: Implements classification and regression machine learning models to analyze and predict outcomes.
 - Evaluation & Visualization: Analyzes model performance with visual outputs.
 - Interactive Notebook: Provides an easy-to-follow structure with step-by-step explanations.
 
@@ -17,26 +17,18 @@ Ensure you have Python 3.7 or later installed.
 ### Required Libraries
 Install the necessary dependencies using pip:
 ```bash
-pip install -r requirements.txt
+pip install numpy pandas sklearn XGBoost tensorflow matplotlib
 ```
 
 ## How It Works
 
-1. **Run the Jupyter Notebook:** Open and run the provided Jupyter Notebook file (`project.ipynb`).
+1. **Run the Jupyter Notebook:** Open and run the provided Jupyter Notebook file (`tornado_cost.ipynb`).
 2. **Explore Data:** Review the data cleaning and preprocessing steps to ensure data readiness.
 3. **Train the Model:** Execute the training code to build and evaluate the model.
 4. **Visualize Results:** Analyze the generated plots and performance metrics.
 
-## Usage
-- Clone this repository:
-```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
-```
-- Run the Jupyter Notebook:
-```bash
-jupyter notebook project.ipynb
-```
+## Dataset
+Dataset is used is from https://www.spc.noaa.gov/
 
 ## Code Examples
 Here are a couple of key code snippets used in the project:
