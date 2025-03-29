@@ -1,7 +1,7 @@
 # Data Preprocessing
 
 ## Overview
-This project is designed to predict total cost encurred by tonadoes in USA using hybrid modelling. It includes data preprocessing, model training, and evaluation steps to achieve high accuracy.
+This project is designed to predict total cost incurred by tonadoes in USA using hybrid modelling. It includes data preprocessing, model training, and evaluation steps to achieve high accuracy.
 
 ## Features
 - Data Preprocessing: Cleans and prepares raw data for model training.
