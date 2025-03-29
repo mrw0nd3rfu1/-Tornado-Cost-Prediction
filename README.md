@@ -1,22 +1,45 @@
 # Data Preprocessing
 
+## Overview
+This project is designed to solve a specific problem using advanced machine learning techniques. It includes data preprocessing, model training, and evaluation steps to achieve high accuracy.
+
+## Features
+- Data Preprocessing: Cleans and prepares raw data for model training.
+- Model Training: Implements machine learning models to analyze and predict outcomes.
+- Evaluation & Visualization: Analyzes model performance with visual outputs.
+- Interactive Notebook: Provides an easy-to-follow structure with step-by-step explanations.
+
 ## Installation
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/your-repository.git
-```
+### Prerequisites
+Ensure you have Python 3.7 or later installed.
 
-2. Install required dependencies:
+### Required Libraries
+Install the necessary dependencies using pip:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## How It Works
 
-Run the Jupyter Notebook or execute the Python scripts as needed.
+1. **Run the Jupyter Notebook:** Open and run the provided Jupyter Notebook file (`project.ipynb`).
+2. **Explore Data:** Review the data cleaning and preprocessing steps to ensure data readiness.
+3. **Train the Model:** Execute the training code to build and evaluate the model.
+4. **Visualize Results:** Analyze the generated plots and performance metrics.
+
+## Usage
+- Clone this repository:
+```bash
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+```
+- Run the Jupyter Notebook:
+```bash
+jupyter notebook project.ipynb
+```
 
 ## Code Examples
+Here are a couple of key code snippets used in the project:
 
 ```python
 # Importing all the libraries
@@ -37,13 +60,16 @@ from sklearn.metrics import confusion_matrix, r2_score
 from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 ```
-
 ```python
 # Importing dataset-About tornadoes
 df = pd.read_csv('1950-2023_actual_tornadoes.csv')
 df.head()
 ```
 
-## License
+## Future Improvements
+- Add support for multiple models with automatic comparison.
+- Enhance data visualization with more interactive plots.
+- Implement hyperparameter tuning for better accuracy.
 
+## License
 This project is licensed under the MIT License.
